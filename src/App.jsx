@@ -52,7 +52,7 @@ const App = () => {
         <Route path="/events" element={<AllEvents />} />
         <Route path="/events/:event" element={<Event/>} />
         <Route path='/code-of-conduct' element={<CodeOfConduct />} />
-        <Route path='*' element={<NotFound />} />
+        {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
     </Router>
   )
