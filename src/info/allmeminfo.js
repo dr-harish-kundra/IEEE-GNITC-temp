@@ -25,10 +25,28 @@ const AllMemInfo =[
     role: "Web Master",
   },
   {
+    name: "Sumith Reddy",
+    img: "src/assets/people/SumithReddy.png",
+    role: "Web Team",
+  },
+  {
+    name: "Kevin Paul Reddy Janagari",
+    img: "src/assets/people/Kevin.png",
+    role: "Web Team",
+  },
+
+  {
     name: "V. Mohitha",
     img: "src/assets/people/MohithaVinnakota.png",
     role: "Public Relations",
   },
+
+  {
+    name: "Enumula Umamaheshwari",
+    img: "src/assets/people/UmaEnumala.png",
+    role: "Student Representative",
+  },
+  
   {
     name: "Pranav Vojjala",
     img: "src/assets/people/PranavVojjala.png",
@@ -92,21 +110,8 @@ const AllMemInfo =[
     img: "src/assets/people/Sumidha.png",
     role: "Design",
   },
-  {
-    name: "Enumula Umamaheshwari",
-    img: "src/assets/people/UmaEnumala.png",
-    role: "Student Representative",
-  },
-  {
-    name: "Sumith Reddy",
-    img: "src/assets/people/SumithReddy.png",
-    role: "Web Team",
-  },
-  {
-    name: "Kevin Paul Reddy Janagari",
-    img: "src/assets/people/Kevin.png",
-    role: "Web Team",
-  },
+
+  
   ];
 
 

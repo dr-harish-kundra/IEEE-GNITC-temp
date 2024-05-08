@@ -57,7 +57,7 @@ function Events() {
               <div className="hidden md:flex gap-10 mt-5">  <CarouselPrevious />
                 <CarouselNext />
               </div>
-              <a href="/events" className="mt-7">
+              <a href="/#/events" className="mt-7">
               <button className="btn1 text-white border-2 rounded-xl text-lg cursor-pointer l mt-5 ">View All</button>
               </a>
                 </div>
