@@ -15,20 +15,20 @@ function Memebers() {
   return (
     <div id="members">
       <div>
-        <div className=" w-full">
+        <div className=" w-full overflow-hidden">
           <div className="    border-b-4  h-screen w-full">
             <p>.</p>
             <div className=" flex justify-between items-center mt-12 gap-3">
               <div className=" heading ">Members </div>
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
                 <a href="/#/members">
-                  <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l">
+                  <span className=" btn1 text-white border-2 rounded-xl md:text-lg cursor-pointer l">
                     See All
                   </span>
                 </a>
               </div>
             </div>
-            <div className=" memcard flex overflow-hidden  mt-14 gap-4 m-6">
+            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6">
               <Carousel
                 opts={{
                   align: "start",
@@ -44,7 +44,7 @@ function Memebers() {
                   {MemInfo.map((data,index) => {
                     return (
                       <CarouselItem
-                        className=" basis-1/5 pl-2 md:pl-4"
+                        className=" md:basis-1/5 md:pl-4"
                         key={index}
                       >
                         <MemItem

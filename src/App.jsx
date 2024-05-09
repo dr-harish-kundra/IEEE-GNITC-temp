@@ -30,8 +30,8 @@ function App1() {
       <FutureEventTimeLine />
       <FacltyAdv />
       <Members />
-      
       <Contact />
+   
 
       
     

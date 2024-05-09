@@ -16,7 +16,7 @@ function Contact() {
   //discord
   return (
     <div id="contact">
-    <div  className="h-screen" >
+    <div  className="h-screen overflow-hidden" >
       <p>.</p>
       <div className="flex gap-5 justify-center items-center m-8 mt-20 ">
         <a
