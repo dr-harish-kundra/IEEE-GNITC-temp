@@ -9,7 +9,7 @@ import mohitha from "../assets/people/MohithaVinnakota.png";
 import umaenumala from "../assets/people/UmaEnumala.png";
 import pranav from "../assets/people/PranavVojjala.png";
 import imran from "../assets/people/MohammedImranAli.png";
-// import karthikaya from "../assets/people/Karthikaya.png";
+// import karthikeya from "../assets/people/Karthikeya.png";
 import raviteja from "../assets/people/RavitejaKarnati.png";
 import qamaruddin from "../assets/people/MohammedQamaruddin.png";
 import nitya from "../assets/people/NityaPeri.png";
@@ -88,7 +88,7 @@ const AllMemInfo =[
     role: "Communication Society Chair",
   },
   {
-    name: "M. Narashima Karthikaya",
+    name: "M. Narashima Karthikeya",
     img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
     role: "Circuits & Systems Chair",
   },
@@ -131,7 +131,7 @@ const AllMemInfo =[
     role: "membership recruitment",
   },
   {
-    name: "P.yashwanth",
+    name: "P.Yashwanth",
     img: yashwanth,
     role: "Publicity",
   },
