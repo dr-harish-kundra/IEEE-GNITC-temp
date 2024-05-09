@@ -37,6 +37,13 @@ export default function Nav() {
             </ScrollLink>
           </span>
           
+          
+          <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
+            <ScrollLink to="collaborators" smooth={true} duration={500}>
+            Collaborators
+            </ScrollLink>
+          </span>
+
           <span className="m-4  mt-6 mr-10 text-slate-200	 hidden md:flex cursor-pointer">
             <ScrollLink to="contact" smooth={true} duration={500}>
             Contact

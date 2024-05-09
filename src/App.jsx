@@ -16,6 +16,7 @@ import FacltyAdv from './Pages/FacltyAdv'
 import AllEvents from './Pages/AllEvents.jsx'
 import CodeOfConduct from './Pages/CodeOfConduct'
 import FutureEventTimeLine from './Pages/FutureEventTimeLine'
+import Collaborators from './Pages/Collaborators'
 
 
 
@@ -30,7 +31,7 @@ function App1() {
       <FutureEventTimeLine />
       <FacltyAdv />
       <Members />
-      
+      <Collaborators />
       <Contact />
 
       

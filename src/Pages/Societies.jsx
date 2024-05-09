@@ -8,9 +8,12 @@ import { Radius } from 'lucide-react'
 
 function Societies() {
   return (
-    <div>
+    <div id="societies">
+      <p>.</p>
+      <div className="heading  mt-10 text-center">Societies</div>
+
     <div
-      id="societies"
+      
       className="h-screen border-b-4 flex flex-col md:flex-row justify-around items-center"
      
     >

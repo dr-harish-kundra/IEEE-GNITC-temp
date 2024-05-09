@@ -15,7 +15,7 @@ import qamaruddin from "../assets/people/MohammedQamaruddin.png";
 import nitya from "../assets/people/NityaPeri.png";
 import yaseen from "../assets/people/MohammedYaseen.png";
 import navdeep from "../assets/people/Navadeep.png";
-// import jatin from "../assets/people/Jatin.png";
+import jatin from "../assets/people/Jatin.png";
 import bijjala from "../assets/people/BijjalaShivaShankar.png";
 import yashwanth from "../assets/people/Yashwanth.png";
 import sumidha from "../assets/people/Sumidha.png";
@@ -121,7 +121,7 @@ const AllMemInfo =[
   },
   {
     name: "Jatin",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+    img: jatin,
     role: "Social Media",
   },
 
