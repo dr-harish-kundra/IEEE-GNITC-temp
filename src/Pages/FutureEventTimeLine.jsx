@@ -15,7 +15,7 @@ function FutureEventTimeLine() {
     <div id="events ">
       <div>
         <div className="overflow-hidden">
-          <div className="   eventsbg border-b-4 mt-10 md:h-screen w-full">
+          <div className="   eventsbg border-b-4 mt-24 md:h-screen w-full">
             <p>.</p>
             <div className=" flex justify-between items-center mt-12 gap-3">
               <div className=" heading p-2">Upcoming Events</div>
