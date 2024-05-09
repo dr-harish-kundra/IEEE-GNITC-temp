@@ -17,11 +17,11 @@ function FacltyAdv() {
     <div>
       <div className="" id='advisors'>
         <p>.</p>
-      <div className="faclty mt-16 border-b-4 w-full h-screen ">
+      <div className="faclty mt-8 border-b-4 w-full h-screen  overflow-hidden">
             <div className="">
-            <div className=" heading mt-12 ">Faculty Advisors</div>
+            <div className=" heading text-lg mt-8  ">Faculty Advisors</div>
             </div>
-            <div className=" memcard flex overflow-hidden gap-4 mt-20 m-6">
+            <div className=" memcard flex overflow-hidden gap-4 mt-20 ml-10  m-6">
             <Carousel
               opts={{
                 align: "start",

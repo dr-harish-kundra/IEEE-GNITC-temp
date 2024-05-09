@@ -42,7 +42,7 @@ function Events() {
                 {EventInfo.map((eve) => {
                   return (
                     <div key={eve.id}>
-                      <CarouselItem className="">
+                      <CarouselItem className="m-2 ">
                         <CardItem
                           cardImg={eve.img}
                           cardContent={eve.content}
