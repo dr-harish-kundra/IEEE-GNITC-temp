@@ -3,7 +3,7 @@ const Collaborators = () => {
    
     return (
         <div id='collaborators'>
-          <p>.</p>
+          {/* <p>.</p>
       <div className="heading  mt-10 text-center">Chapter Collaborators</div>
     <div  className='flex md:min-h-screen border-b-4 justify-center items-center'>
 
@@ -119,7 +119,7 @@ const Collaborators = () => {
         <h2 className="txt text-center">sponser name</h2>
         </div>
       </div>
-    </div> 
+    </div>  */}
     </div>
     );
     }
