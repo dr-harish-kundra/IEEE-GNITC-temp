@@ -20,7 +20,7 @@ const AllEvents = () => {
                 <div className=" heading ">Timeline</div>
               </div>
               <VerticalTimeline>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -33,7 +33,7 @@ const AllEvents = () => {
           <p>
             
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -43,8 +43,8 @@ const AllEvents = () => {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<img src={computer_society} alt="computer society" className='rounded-full'/>}
         >
-          <h3 className="vertical-timeline-element-title">National level online project competition</h3>
-          <h5 className="vertical-timeline-element-subtitle">build, code ,present</h5>
+          <h3 className="vertical-timeline-element-title">Virtual Vista</h3>
+          <h5 className="vertical-timeline-element-subtitle">Ignite your intelligence</h5>
           <p>
             
           </p>

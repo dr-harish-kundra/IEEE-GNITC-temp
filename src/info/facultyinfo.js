@@ -12,15 +12,16 @@ const FacultyInfo = [
       role: "INSTITUTE HEAD",
     },
     {
+      name: "Dr. Rishi Sayal",
+      img: drrishisayal,
+      role: "Branch Counceller",
+    },
+    {
         name: "Dr. Harish Kundra",
         img: drharishkundra,
         role: "Branch Counceller",
       },
-    {
-        name: "Dr. Rishi Sayal",
-        img: drrishisayal,
-        role: "Branch Counceller",
-      },
+    
     {
       name: "Dr. Geetha Tripati",
       img: drgeethatripati,

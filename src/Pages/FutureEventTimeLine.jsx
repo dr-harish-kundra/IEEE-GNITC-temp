@@ -21,7 +21,27 @@ function FutureEventTimeLine() {
               <div className=" heading p-2">Upcoming Events</div>
             </div>
             <div className="m-2 md:border-b-2">
+
               <VerticalTimeline>
+
+
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
+                  contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}
+                  contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                  date="????"
+                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                  icon={<img src={computer_society} alt="computer society" className='rounded-full'/>}
+                 >
+                  <h3 className="vertical-timeline-element-title">Virtual Vista</h3>
+                  <h5 className="vertical-timeline-element-subtitle">Ignite your intelligence</h5>
+                  <p>
+                    
+                  </p>
+                </VerticalTimelineElement>
+
+
+
                 <a href="/events/Inauguration">
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -32,7 +52,7 @@ function FutureEventTimeLine() {
                     contentArrowStyle={{
                       borderRight: "7px solid  rgb(33, 150, 243)",
                     }}
-                    date="25th May 2024"
+                    date="???"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
                       color: "#fff",
@@ -42,42 +62,16 @@ function FutureEventTimeLine() {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      IEEE GNITC Inauguration
+                      ???
                     </h3>
                     <h5 className="vertical-timeline-element-subtitle">
-                      Lets kick start the IEEE GNITC student chapter
+                      ???
                     </h5>
                     <p></p>
                   </VerticalTimelineElement>
                 </a>
 
-                <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                  contentStyle={{
-                    background: "rgb(33, 150, 243)",
-                    color: "#fff",
-                  }}
-                  contentArrowStyle={{
-                    borderRight: "7px solid  rgb(33, 150, 243)",
-                  }}
-                  date="25th May 2024"
-                  iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                  icon={
-                    <img
-                      src={computer_society}
-                      alt="computer society"
-                      className="rounded-full"
-                    />
-                  }
-                >
-                  <h3 className="vertical-timeline-element-title">
-                    National level online project competition
-                  </h3>
-                  <h5 className="vertical-timeline-element-subtitle">
-                    build, code ,present
-                  </h5>
-                  <p></p>
-                </VerticalTimelineElement>
+                
               </VerticalTimeline>
             </div>
           </div>
