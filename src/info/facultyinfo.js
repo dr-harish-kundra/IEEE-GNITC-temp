@@ -14,7 +14,7 @@ const FacultyInfo = [
     {
       name: "Dr. Rishi Sayal",
       img: drrishisayal,
-      role: "BRANCH COUNCELLER",
+      role: "BRANCH COUNSELLOR",
     },
     {
         name: "Dr. Harish Kundra",

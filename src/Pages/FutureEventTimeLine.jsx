@@ -25,7 +25,7 @@ function FutureEventTimeLine() {
               <VerticalTimeline>
 
               
-                <a href="https://konfhub.com/nlpc-gnitc">
+                <a href="/#/events/VirtualVista">
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}

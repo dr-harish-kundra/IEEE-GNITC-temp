@@ -7,7 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import CardItem2 from "@/components/Items/CardItem2";
-import EventInfo from "@/info/events";
+import EventInfo from "../info/events";
 import Autoplay from "embla-carousel-autoplay"
 import IEEE from "../assets/IEEE.png"
 

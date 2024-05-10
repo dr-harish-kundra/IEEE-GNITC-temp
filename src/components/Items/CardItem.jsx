@@ -1,7 +1,8 @@
 import React from "react";
 
 
-function CardItem({ cardContent, cardTitlee, cardImg ,cardLink}) {
+function CardItem({ cardContent, cardTitlee, cardImg ,cardLink,registerComponent}) {
+  console.log(registerComponent);
   return (
     <div className="">
       {/* <div className="border border-white p-4 rounded-xl wf flex overflow-hidden">
@@ -26,6 +27,8 @@ function CardItem({ cardContent, cardTitlee, cardImg ,cardLink}) {
           <h2 className="md:text-4xl text-2xl txt text-center font-bold">{cardTitlee}</h2>
           <div className="dec txt text-center text-m">
             <p className=" md:p-4  md:mt-8  mt-2 wp">{cardContent}</p>
+
+            {registerComponent}
           </div> 
         </div>
       </div>

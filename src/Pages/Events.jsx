@@ -1,5 +1,5 @@
 import React from "react";
-import EventInfo from "@/info/events";
+import EventInfo from "../info/events";
 import Autoplay from "embla-carousel-autoplay";
 
 
@@ -48,6 +48,7 @@ function Events() {
                           cardContent={eve.content}
                           cardTitlee={eve.title}
                           cardLink={eve.link}
+                          registerComponent={eve.register}
                         />
                       </CarouselItem>
                     </div>
