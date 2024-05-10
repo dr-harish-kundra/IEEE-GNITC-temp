@@ -14,9 +14,10 @@ import CommunicationSociety from './Pages/societies/CommunicationSociety'
 import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSociety'
 import FacltyAdv from './Pages/FacltyAdv'
 import AllEvents from './Pages/AllEvents.jsx'
-import CodeOfConduct from './Pages/CodeOfConduct'
+// import CodeOfConduct from './Pages/CodeOfConduct'
 import FutureEventTimeLine from './Pages/FutureEventTimeLine'
 import Collaborators from './Pages/Collaborators'
+import VirtualVista from './Pages/events/computersociety/VirtualVista'
 
 
 
@@ -33,11 +34,6 @@ function App1() {
       <Members />
       <Collaborators />
       <Contact />
-   
-
-      
-    
-  
     </>
   )
 }
@@ -52,8 +48,9 @@ const App = () => {
         <Route path='/CommunicationSociety' element={<CommunicationSociety/>} />
         <Route path='/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
         <Route path="/events" element={<AllEvents />} />
-        <Route path="/events/:event" element={<Event/>} />
-        <Route path='/code-of-conduct' element={<CodeOfConduct />} />
+        <Route path="/events/VirtualVista" element={<VirtualVista />} />
+          
+        {/* <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
         {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
     </Router>

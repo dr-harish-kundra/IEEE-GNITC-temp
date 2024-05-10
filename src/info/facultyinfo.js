@@ -1,32 +1,39 @@
+import drkvenkatrao from "../assets/people/Dr.K.VenkatRao.png";
+import drharishkundra from "../assets/people/Dr.HarishKundra.jpg";
+import drgeethatripati from "../assets/people/Dr.GeethaTripathi.png";
+import drrashidmohmad from "../assets/people/DrMdRashidMahmood.png";
+import drsmkmabbasahmed from "../assets/people/Dr.S.M.K.M.AbbasAhmad.png";
+import drrishisayal from "../assets/people/DrRishiSayal.png";
+
 const FacultyInfo = [
     {
       name: "Dr. k. Venkata Rao",
-      img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+      img: drkvenkatrao,
       role: "INSTITUTE HEAD",
     },
     {
         name: "Dr. Harish Kundra",
-        img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+        img: drharishkundra,
         role: "Branch Counceller",
       },
     {
         name: "Dr. Rishi Sayal",
-        img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+        img: drrishisayal,
         role: "Branch Counceller",
       },
     {
       name: "Dr. Geetha Tripati",
-      img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+      img: drgeethatripati,
       role: "computer society advisor", 
      },
     {
         name: "Dr. Rashid Mohmad",
-        img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+        img: drrashidmohmad,
         role: "communication society advisor",
      },
      {
         name: "Dr. SMKM Abbas Ahmed",
-        img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+        img: drsmkmabbasahmed,
         role: "Ciruits and Systems society advisor",
       },
 ];

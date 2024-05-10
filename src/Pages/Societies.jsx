@@ -17,7 +17,7 @@ function Societies() {
       className="h-screen border-b-4 flex flex-col md:flex-row justify-around items-center"
      
     >
-      <a href='/#/computersociety'>
+      <a href='/#'>
       <div className="floatdiv">
         <img src={computer_society} alt="Icomputer society" className='w-48 md:w-80'/>
       </div>
@@ -27,13 +27,13 @@ function Societies() {
         <img src={women_in_engineering} alt='women in engineering'/>
         women in engineering</div> */}
 
-      <a href='/#/circuitsandsystemssociety'>
+      <a href='/#'>
       <div className="floatdiv"> 
         <img className='rounded-full w-48  md:w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
       </div>
       </a>
 
-      <a href='/#/communicationsociety'>
+      <a href='/#'>
       <div className="floatdiv "> 
         <img src={communication_society} alt="communication society" className='md:w-80  w-48 ' />
       </div>

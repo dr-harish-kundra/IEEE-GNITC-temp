@@ -6,7 +6,7 @@ import akash from "../assets/people/Akash.png";
 import mohitha from "../assets/people/MohithaVinnakota.png";
 import pranav from "../assets/people/PranavVojjala.png";
 import imran from "../assets/people/MohammedImranAli.png";
-
+import karthikeya from "../assets/people/Karthikeya.png";
 
 
 
@@ -37,7 +37,7 @@ const MemInfo = [
     role: "Web Master",
   },
   {
-    name: "V. Mohitha",
+    name: "Mohitha Vinnakota",
     img: mohitha,
     role: "Public Relations",
   },
@@ -53,8 +53,8 @@ const MemInfo = [
   },
   {
     name: "M. Narashima Karthikeya",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Circuits & Systems Chair",
+    img: karthikeya,
+    role: "Circuits and Systems Society Chair",
   },
   
 ];

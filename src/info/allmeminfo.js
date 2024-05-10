@@ -9,7 +9,7 @@ import mohitha from "../assets/people/MohithaVinnakota.png";
 import umaenumala from "../assets/people/UmaEnumala.png";
 import pranav from "../assets/people/PranavVojjala.png";
 import imran from "../assets/people/MohammedImranAli.png";
-// import karthikeya from "../assets/people/Karthikeya.png";
+import karthikeya from "../assets/people/Karthikeya.png";
 import raviteja from "../assets/people/RavitejaKarnati.png";
 import qamaruddin from "../assets/people/MohammedQamaruddin.png";
 import nitya from "../assets/people/NityaPeri.png";
@@ -19,6 +19,7 @@ import jatin from "../assets/people/Jatin.png";
 import bijjala from "../assets/people/BijjalaShivaShankar.png";
 import yashwanth from "../assets/people/Yashwanth.png";
 import sumidha from "../assets/people/Sumidha.png";
+import sayedmanzoorulhaqsiddiq from "../assets/people/SayedManzoorUlHaqSiddiq.png";
 
 
 
@@ -66,7 +67,7 @@ const AllMemInfo =[
   },
 
   {
-    name: "V. Mohitha",
+    name: "Mohitha Vinnakota",
     img: mohitha,
     role: "Public Relations",
   },
@@ -74,6 +75,11 @@ const AllMemInfo =[
   {
     name: "Enumula Umamaheshwari",
     img: umaenumala,
+    role: "Student Representative",
+  },
+  {
+    name: "Syed Manzoor Ul Haq Siddiq",
+    img: sayedmanzoorulhaqsiddiq,
     role: "Student Representative",
   },
 
@@ -89,7 +95,7 @@ const AllMemInfo =[
   },
   {
     name: "M. Narashima Karthikeya",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
+    img: karthikeya,
     role: "Circuits & Systems Chair",
   },
   
