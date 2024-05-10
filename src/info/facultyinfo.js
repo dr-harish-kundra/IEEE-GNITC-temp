@@ -9,7 +9,7 @@ const FacultyInfo = [
     {
       name: "Dr. K. Venkata Rao",
       img: drkvenkatrao,
-      role: "INSTITUTE HEAD",
+      role: "DIRECTOR",
     },
     {
       name: "Dr. Rishi Sayal",
@@ -19,7 +19,7 @@ const FacultyInfo = [
     {
         name: "Dr. Harish Kundra",
         img: drharishkundra,
-        role: "BRANCH COUNCELLER",
+        role: "BRANCH COORDINATOR",
       },
     
     {

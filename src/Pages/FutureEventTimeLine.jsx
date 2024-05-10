@@ -24,7 +24,8 @@ function FutureEventTimeLine() {
 
               <VerticalTimeline>
 
-
+              
+                <a href="https://konfhub.com/nlpc-gnitc">
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}
@@ -39,11 +40,11 @@ function FutureEventTimeLine() {
                     
                   </p>
                 </VerticalTimelineElement>
+                </a>
 
 
 
-                <a href="/events/Inauguration">
-                  <VerticalTimelineElement
+                <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
                       background: "rgb(33, 150, 243)",
@@ -69,8 +70,6 @@ function FutureEventTimeLine() {
                     </h5>
                     <p></p>
                   </VerticalTimelineElement>
-                </a>
-
                 
               </VerticalTimeline>
             </div>

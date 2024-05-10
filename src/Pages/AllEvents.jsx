@@ -35,6 +35,7 @@ const AllEvents = () => {
           </p>
         </VerticalTimelineElement> */}
       
+        <a href='https://konfhub.com/nlpc-gnitc'>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}
@@ -46,10 +47,11 @@ const AllEvents = () => {
           <h3 className="vertical-timeline-element-title">Virtual Vista</h3>
           <h5 className="vertical-timeline-element-subtitle">Ignite your intelligence</h5>
           <p>
-            
+          
           </p>
         </VerticalTimelineElement>
-
+        </a>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(243, 150, 33)', color: '#fff' }}
