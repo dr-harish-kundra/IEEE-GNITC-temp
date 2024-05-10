@@ -18,22 +18,14 @@ import AllEvents from './Pages/AllEvents.jsx'
 import FutureEventTimeLine from './Pages/FutureEventTimeLine'
 import Collaborators from './Pages/Collaborators'
 import VirtualVista from './Pages/events/computersociety/VirtualVista'
+import VistaIndi from './Pages/events/computersociety/VistaIndi'
 
 
 
 function App1() {
   return (
     <>
-      <Nav/>
-      <Home />
-      <AboutUs />
-      <Societies />
-      <Events />
-      <FutureEventTimeLine />
-      <FacltyAdv />
-      <Members />
-      <Collaborators />
-      <Contact />
+      <VistaIndi />
     </>
   )
 }
