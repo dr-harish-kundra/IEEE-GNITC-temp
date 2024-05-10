@@ -7,36 +7,36 @@ import drrishisayal from "../assets/people/DrRishiSayal.png";
 
 const FacultyInfo = [
     {
-      name: "Dr. k. Venkata Rao",
+      name: "Dr. K. Venkata Rao",
       img: drkvenkatrao,
       role: "INSTITUTE HEAD",
     },
     {
       name: "Dr. Rishi Sayal",
       img: drrishisayal,
-      role: "Branch Counceller",
+      role: "BRANCH COUNCELLER",
     },
     {
         name: "Dr. Harish Kundra",
         img: drharishkundra,
-        role: "Branch Counceller",
+        role: "BRANCH COUNCELLER",
       },
     
     {
-      name: "Dr. Geetha Tripati",
+      name: "Dr. Geeta Tripathi",
       img: drgeethatripati,
-      role: "computer society advisor", 
+      role: "COMPUER SOCIETY ADVISOR", 
      },
     {
         name: "Dr. Rashid Mohmad",
         img: drrashidmohmad,
-        role: "communication society advisor",
+        role: "COMMUNICATION SOCIETY ADVISOR",
      },
      {
         name: "Dr. SMKM Abbas Ahmed",
         img: drsmkmabbasahmed,
-        role: "Ciruits and Systems society advisor",
+        role: "CIRCUTS AND SYSTEMS SOCIETY ADVISOR",
       },
 ];
 
-export default FacultyInfo;``
+export default FacultyInfo;

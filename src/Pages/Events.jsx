@@ -47,6 +47,7 @@ function Events() {
                           cardImg={eve.img}
                           cardContent={eve.content}
                           cardTitlee={eve.title}
+                          cardLink={eve.link}
                         />
                       </CarouselItem>
                     </div>

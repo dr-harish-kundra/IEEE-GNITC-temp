@@ -8,6 +8,7 @@ const EventInfo = [
       img: virtualvista,
       content:
        "",
+       link: "https://konfhub.com/nlpc-gnitc"
     },
     
   ];

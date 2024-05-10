@@ -47,7 +47,7 @@ function Home() {
                   return (
                     <>
                       <CarouselItem>
-                        <CardItem2 cardTitlee={eve.title} cardImg={eve.img} />
+                        <CardItem2 cardTitlee={eve.title} cardImg={eve.img } link={eve.link}/>
                       </CarouselItem>
                     </>
                   );

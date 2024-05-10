@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function CardItem({ cardContent, cardTitlee, cardImg }) {
+function CardItem({ cardContent, cardTitlee, cardImg ,cardLink}) {
   return (
     <div className="">
       {/* <div className="border border-white p-4 rounded-xl wf flex overflow-hidden">
@@ -14,11 +14,13 @@ function CardItem({ cardContent, cardTitlee, cardImg }) {
 
       <div className="border evecard border-white p-8 rounded-xl wf md:w-[95vw]   flex  h-96  md:flex-row  overflow-hidden">
         <div className=" flex justify-center  eveimg items-center">
+          <a href={cardLink}>
           <img
             src={cardImg}
             alt="img "
             className="cardImg m-4  rounded-2xl overflow-auto"
           />
+          </a>
         </div>
         <div className=" flex  md:ml-8 ml-4 flex-col">
           <h2 className="md:text-4xl text-2xl txt text-center font-bold">{cardTitlee}</h2>
