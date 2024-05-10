@@ -113,12 +113,12 @@ const AllMemInfo =[
   {
     name: "Nitya Peri",
     img: nitya,
-    role: "Documentaion Head",
+    role: "Documentation Head",
   },
   {
     name: "Mohammad Yaseen",
     img: yaseen,
-    role: "Documentaion Executive",
+    role: "Documentation Executive",
   },
   {
     name: "Navdeep",

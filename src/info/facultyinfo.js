@@ -25,7 +25,7 @@ const FacultyInfo = [
     {
       name: "Dr. Geeta Tripathi",
       img: drgeethatripati,
-      role: "COMPUER SOCIETY ADVISOR", 
+      role: "COMPUTER SOCIETY ADVISOR", 
      },
     {
         name: "Dr. Rashid Mohmad",
