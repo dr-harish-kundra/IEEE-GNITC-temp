@@ -14,7 +14,7 @@ import raviteja from "../assets/people/RavitejaKarnati.png";
 import qamaruddin from "../assets/people/MohammedQamaruddin.png";
 import nitya from "../assets/people/NityaPeri.png";
 import yaseen from "../assets/people/MohammedYaseen.png";
-import navdeep from "../assets/people/Navadeep.png";
+import navadeep from "../assets/people/Navadeep.png";
 import jatin from "../assets/people/Jatin.png";
 import bijjala from "../assets/people/BijjalaShivaShankar.png";
 import yashwanth from "../assets/people/Yashwanth.png";
@@ -121,8 +121,8 @@ const AllMemInfo =[
     role: "Documentation Executive",
   },
   {
-    name: "Navdeep",
-    img: navdeep,
+    name: "Navadeep",
+    img: navadeep,
     role: "Proposals manager",
   },
   {
