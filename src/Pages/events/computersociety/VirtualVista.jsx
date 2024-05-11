@@ -27,7 +27,7 @@ function VirtualVista() {
         </div>
         <div className="rules flex-col mt-10 ">
           <span className="cen fontf font-semibold text-3xl">
-            Format & Participation
+            Rules and Guidelines
           </span>
           <span className="  fontt  text-lg cen md:ml-16  ">
             <ol>
