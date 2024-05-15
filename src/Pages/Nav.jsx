@@ -26,6 +26,13 @@ export default function Nav() {
           <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
           <ScrollLink to="events" smooth={true} duration={500}>Events</ScrollLink>
           </span>
+
+          <span className="m-4 mt-6 text-slate-200	hidden md:flex cursor-pointer">
+            <ScrollLink to="TopLeadership" smooth={true} duration={500}>
+              Top Leadership
+            </ScrollLink>
+          </span>
+
           <span className="m-4 mt-6 text-slate-200	hidden md:flex cursor-pointer">
             <ScrollLink to="advisors" smooth={true} duration={500}>
               Faculty Advisors

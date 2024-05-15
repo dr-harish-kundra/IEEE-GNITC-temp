@@ -75,8 +75,27 @@ function Contact() {
         <a href="#events">Events</a>
         <a href="#members">Members</a>
       </div>
+      <div>
+        <h1 className="text-3xl txt ml-80">KNOW ABOUT US</h1>
+        <h1 className="text-2xl txt ml-80">visit <a href="https://gniindia.org"><u>https://gniindia.org</u></a></h1>
+      </div>
       <div className=" txt text-xl ">
-        <h2 className="">Important Links</h2>
+        <u className="text-3xl">Contact Us</u>
+        <h2 className="text-2xl">Chair : Chandra Kiran Reddy Kasireddy</h2>
+        <div className="px-10">
+        <h2>email : <a href="mailto:chandukasireddy@ieee.org">chandukasireddy@ieee.org</a></h2>
+        <h2>phone : <a href="tel:+918179833743">+91 8179833743</a></h2>
+        </div>
+        <h2 className="text-2xl">Vice Chair : Mohammed Abdul Rahman</h2>
+        <div className="px-10">
+        <h2>email : <a href="mailto:Mohammedabdulrahman@ieee.org">Mohammedabdulrahman@ieee.org</a></h2>
+        <h2>phone : <a href="tel:+918008243308">+91 8008243308</a></h2>
+        </div>
+        <h2 className="text-2xl">Public Relations : Mohitha Vinnakota</h2>
+        <div className="px-10">
+        <h2>email : <a href="mailto:mohithav@ieee.org">mohithav@ieee.org</a></h2>
+        <h2>phone : <a href="tel:+919951150501">+91 9951150501</a></h2>
+          </div>
       </div>
       </div>
       {/* <a href="/#/code-of-conduct"><b className="flex justify-center mb-8">IEEE GNITC CODE OF CONDUCT</b></a> */}

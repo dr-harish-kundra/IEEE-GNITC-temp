@@ -40,7 +40,7 @@ const AllEvents = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="????"
+          date="23-05-2024"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<img src={computer_society} alt="computer society" className='rounded-full'/>}
         >
@@ -52,7 +52,7 @@ const AllEvents = () => {
         </VerticalTimelineElement>
         </a>
         
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(243, 150, 33)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -80,7 +80,7 @@ const AllEvents = () => {
           <p>
             
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
 
         

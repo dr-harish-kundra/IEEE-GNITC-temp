@@ -30,7 +30,7 @@ function FutureEventTimeLine() {
                   className="vertical-timeline-element--work"
                   contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}
                   contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                  date="????"
+                  date="23-05-2024"
                   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                   icon={<img src={computer_society} alt="computer society" className='rounded-full'/>}
                  >
@@ -44,7 +44,7 @@ function FutureEventTimeLine() {
 
 
 
-                <VerticalTimelineElement
+                {/* <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
                       background: "rgb(33, 150, 243)",
@@ -69,7 +69,7 @@ function FutureEventTimeLine() {
                       ???
                     </h5>
                     <p></p>
-                  </VerticalTimelineElement>
+                  </VerticalTimelineElement> */}
                 
               </VerticalTimeline>
             </div>

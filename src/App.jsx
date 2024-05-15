@@ -13,6 +13,7 @@ import ComputerSociety from './Pages/societies/ComputerSociety'
 import CommunicationSociety from './Pages/societies/CommunicationSociety'
 import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSociety'
 import FacltyAdv from './Pages/FacltyAdv'
+import TopLeadership from './Pages/TopLeadership'
 import AllEvents from './Pages/AllEvents.jsx'
 // import CodeOfConduct from './Pages/CodeOfConduct'
 import FutureEventTimeLine from './Pages/FutureEventTimeLine'
@@ -30,6 +31,7 @@ function App1() {
       <Societies />
       <Events />
       <FutureEventTimeLine />
+      <TopLeadership />
       <FacltyAdv />
       <Members />
       <Collaborators />
