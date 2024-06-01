@@ -17,12 +17,56 @@ const EventInfo = [
       img2: virtualvista,
       img: <iframe width="560" height="315" src="https://www.youtube.com/embed/hT_nvWreIhg?si=m_I2sBXx3nZXhCye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
       content:
-       "IEEE-Computer Society of Guru Nanak Institutions Technical Campus, Hyderabad is thrilled to invite you all to participate and to showcase your talent and innovation at the National Level Online Project Competition VIRTUAL VISTA-1.0 Sponsored by IEEE. This virtual event is set to ignite your intelligence and provide an online platform to showcase your talent."
+       "Vitual Vesta pannel 1 "
        
        ,
       link: "/#/events/VirtualVista",
       register: RegisterComponent,
     },
+    {
+      id: "2",
+      title: "Virtual Vista",
+      img: <iframe width="560" height="315" src="https://www.youtube.com/embed/i6kXK_p94Ok?si=RtBMzredcstprsx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+      content:
+      "Vitual Vesta pannel 2"       
+       ,
+      link: "/#/events/VirtualVista",
+      register: RegisterComponent,
+    },
+    
+    {
+      id: "3",
+      title: "Virtual Vista",
+      img: <iframe width="560" height="315" src="https://www.youtube.com/embed/2yGKzUbdehI?si=C0NVwB8-bBaAPB2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+      content:
+        "Vitual Vesta pannel 3"       
+       ,
+      link: "/#/events/VirtualVista",
+      register: RegisterComponent,
+    },
+    
+    {
+      id: "4",
+      title: "Virtual Vista",
+      img: <iframe width="560" height="315" src="https://www.youtube.com/embed/RU--zDGc9uk?si=P9XoFrpx0SJAa-IF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+      content:
+        "Vitual Vesta pannel 4"       
+       ,
+      link: "/#/events/VirtualVista",
+      register: RegisterComponent,
+    },
+    
+    {
+      id: "5",
+      title: "Virtual Vista",
+      img: <iframe width="560" height="315" src="https://www.youtube.com/embed/Hlu6_E1qyIw?si=Pk9mx7hVDA0sKo6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+      content:
+        "Vitual Vesta pannel 5"       
+       ,
+      link: "/#/events/VirtualVista",
+      register: RegisterComponent,
+    },
+    
     
     
   ];
