@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as Scrool} from "react-scroll";
 import {
   IoLogoLinkedin,
   IoLogoYoutube,
@@ -70,10 +71,10 @@ function Contact() {
         </div>
         <div className=" flex justify-between m-8">
           <div className="text-slate-300 gap-4 underline font-semibold flex flex-col m-4 text-xl">
-            <a href="#aboutus">About us</a>
-            <a href="#societies">Societies</a>
-            <a href="#events">Events</a>
-            <a href="#members">Members</a>
+            <Scrool className="cursor-pointer" to="home">Home</Scrool>
+            <Scrool  className="cursor-pointer" to="about">About</Scrool>
+            <Scrool className="cursor-pointer" to="events">Events</Scrool>
+            <Scrool className="cursor-pointer" to="members">Members</Scrool>
           </div>
           <div>
             <h1 className="text-3xl txt ml-80">KNOW ABOUT US</h1>
