@@ -36,11 +36,11 @@ const MemInfo = [
     img: akash,
     role: "Web Master",
   },
-  {
-    name: "Mohitha Vinnakota",
-    img: mohitha,
-    role: "Public Relations",
-  },
+  // {
+  //   name: "Mohitha Vinnakota",
+  //   img: mohitha,
+  //   role: "Public Relations",
+  // },
   {
     name: "Pranav Vojjala",
     img: pranav,

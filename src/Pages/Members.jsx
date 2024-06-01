@@ -21,11 +21,11 @@ function Memebers() {
             <div className=" flex justify-between items-center mt-12 gap-3">
               <div className=" heading ">Members </div>
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
-                <a href="/#/members">
+                {/* <a href="/#/members">
                   <span className=" btn1 text-white border-2 rounded-xl md:text-lg cursor-pointer l">
                     See All
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6">

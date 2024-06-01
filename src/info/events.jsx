@@ -26,6 +26,7 @@ const EventInfo = [
     {
       id: "2",
       title: "Virtual Vista",
+      img2: virtualvista,
       img: <iframe width="560" height="315" src="https://www.youtube.com/embed/i6kXK_p94Ok?si=RtBMzredcstprsx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
       content:
       "Vitual Vesta pannel 2"       
@@ -37,6 +38,7 @@ const EventInfo = [
     {
       id: "3",
       title: "Virtual Vista",
+      img2: virtualvista,
       img: <iframe width="560" height="315" src="https://www.youtube.com/embed/2yGKzUbdehI?si=C0NVwB8-bBaAPB2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
       content:
         "Vitual Vesta pannel 3"       
@@ -48,6 +50,7 @@ const EventInfo = [
     {
       id: "4",
       title: "Virtual Vista",
+      img2: virtualvista,
       img: <iframe width="560" height="315" src="https://www.youtube.com/embed/RU--zDGc9uk?si=P9XoFrpx0SJAa-IF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
       content:
         "Vitual Vesta pannel 4"       
@@ -59,6 +62,7 @@ const EventInfo = [
     {
       id: "5",
       title: "Virtual Vista",
+      img2: virtualvista,
       img: <iframe width="560" height="315" src="https://www.youtube.com/embed/Hlu6_E1qyIw?si=Pk9mx7hVDA0sKo6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
       content:
         "Vitual Vesta pannel 5"       

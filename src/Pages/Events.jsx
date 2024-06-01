@@ -33,9 +33,9 @@ function Events() {
                 loop: true,
               }}
               plugins={[
-                Autoplay({
-                  delay: 5000,
-                }),
+                // Autoplay({
+                //   delay: 5000,
+                // }),
               ]}
             >
               <CarouselContent>
