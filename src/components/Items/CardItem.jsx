@@ -30,7 +30,7 @@ function CardItem({ cardContent, cardTitlee, cardImg, cardLink, registerComponen
           <div className="dec txt text-center text-m">
             <p className=" md:p-4  md:mt-8  mt-2 wp">{cardContent}</p>
 
-            {/* {registerComponent} */}
+            {registerComponent}
           </div>
         </div>
       </div>

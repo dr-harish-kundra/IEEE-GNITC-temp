@@ -4,7 +4,7 @@ import virtualvista from "../assets/events/VirtualVista.jpg";
 const RegisterComponent = (
   <div className="regist m-5 md:m-8 cen">
     <div className="fontf text-6xl md:text-8xl">
-      <a href="">View Images</a>
+      <a href="#/events/VirtualVista">View Images</a>
     </div>
     <div></div>
   </div>
