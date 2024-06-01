@@ -15,14 +15,15 @@ function CardItem({ cardContent, cardTitlee, cardImg, cardLink, registerComponen
 
       <div className="border evecard border-white p-8 rounded-xl wf md:w-[95vw]   flex  h-96  md:flex-row  overflow-hidden">
         <div className=" flex justify-center  eveimg items-center">
-          <a href={cardLink}>
+          {/* <a href={cardLink}>
             <img
               src={cardImg}
               alt="img "
               className="cardImg m-4  rounded-2xl overflow-auto"
             />
-          </a>
-          {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/zUN5ksWRtd4?si=8hMvi4aPfpeqv_oF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+          </a> */}
+         {cardImg}
+          {/* <iframe width="560" height="315" src={cardImg} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
         </div>
         <div className=" flex  md:ml-8 ml-4 flex-col">
           <h2 className="md:text-4xl text-2xl txt text-center font-bold">{cardTitlee}</h2>

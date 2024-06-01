@@ -19,13 +19,14 @@ import AllEvents from './Pages/AllEvents.jsx'
 import FutureEventTimeLine from './Pages/FutureEventTimeLine'
 import Collaborators from './Pages/Collaborators'
 import VirtualVista from './Pages/events/computersociety/VirtualVista'
+import VirtualVista2 from './Pages/events/computersociety/VirtualVista2'
 
 
 
 function App1() {
   return (
     <>
-      <Nav/>
+    <Nav/>
       <Home />
       <AboutUs />
       <Societies />
@@ -36,6 +37,7 @@ function App1() {
       <Members />
       <Collaborators />
       <Contact />
+  
     </>
   )
 }
@@ -50,7 +52,7 @@ const App = () => {
         <Route path='/CommunicationSociety' element={<CommunicationSociety/>} />
         <Route path='/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
         <Route path="/events" element={<AllEvents />} />
-        <Route path="/events/VirtualVista" element={<VirtualVista />} />
+        <Route path="/events/VirtualVista" element={<VirtualVista2 />} />
           
         {/* <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
         {/* <Route path='*' element={<NotFound />} /> */}
