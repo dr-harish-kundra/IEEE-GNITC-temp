@@ -15,7 +15,7 @@ const EventInfo = [
       id: "1",
       title: "Virtual Vista",
       img2: virtualvista,
-      img: <iframe width="560" height="315" src="https://www.youtube.com/embed/hT_nvWreIhg?si=m_I2sBXx3nZXhCye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
+      img: <iframe width="560" height="315" src="https://www.youtube.com/embed/YXkWXIoWZhg?si=zfc12nc0P29zDWvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
       content:
        "Vitual Vesta pannel 1 "
        
