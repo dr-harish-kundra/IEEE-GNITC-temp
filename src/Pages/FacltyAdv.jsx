@@ -17,7 +17,7 @@ function FacltyAdv() {
     <div>
       <div className="" id='advisors'>
         <p>.</p>
-      <div className="faclty mt-8 border-b-4 w-full h-screen  overflow-hidden">
+      <div className="faclty mt-8  w-full h-screen  overflow-hidden">
             <div className="">
             <div className=" heading text-lg mt-8  ">Faculty Advisors</div>
             </div>

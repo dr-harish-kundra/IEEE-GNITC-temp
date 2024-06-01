@@ -11,7 +11,7 @@ function AboutUs() {
 
   return (
     <div id='aboutus'>
-    <div  className=' md:min-h-screen border-b-4'>
+    <div  className=' md:min-h-screen '>
       <p>.</p>
       <div className="heading  mt-10 text-center">About Us</div>
       <div className=" flex gap-2 m-1 flex-col md:flex-row  p-4 ">

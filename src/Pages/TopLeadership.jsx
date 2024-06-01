@@ -14,39 +14,28 @@ import leadersinfo from "@/info/leadersinfo";
 function TopLeadership() {
   return (
     <div>
-      <div className="" id='TopLeadership'>
+      <div className="min-h-screen" id='TopLeadership'>
         <p>.</p>
-      <div className="faclty mt-8 border-b-4 w-full h-auto overflow-hidden">
+      <div className="faclty  mt-44 md:mt-8 w-full h-auto overflow-hidden">
             <div className="">
-            <div className=" heading text-lg mt-8  ">Top Leadership</div>
+            <div className=" heading text-lg m-8 ">Top Leadership</div>
             </div>
-            <div className=" memcard flex overflow-hidden gap-4 mt-20 ml-10  m-6">
-            <Carousel
-            className="w-full"
-              opts={{
-                align: "start",
-                loop: true,
-              }}
-              plugins={[
-                Autoplay({
-                  delay: 3000,
-                }),
-              ]}
-            >
-              <CarouselContent className="-ml-4 flex flex-col  md:flex-row justify-center flex-wrap ">
+            <div className=" flex m-10  flex-col md:flex-row justify-between">
+           
+             
                 {leadersinfo.map((data) => {
                   return (
-                    <CarouselItem className="basis-1/4  ml-10" key={data.id}>
+                      <div className="m-5 mt-10">
                       <MemItem
                         memimg={data.img}
                         memname={data.name}
                         memrole={data.role}
                       />
-                    </CarouselItem>
+                      </div>
+                   
                   );
                 })}
-              </CarouselContent>
-            </Carousel>
+              
            
           </div>
           </div>

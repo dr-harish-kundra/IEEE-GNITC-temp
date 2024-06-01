@@ -14,7 +14,7 @@ function Societies() {
 
     <div
       
-      className="h-screen border-b-4 flex flex-col md:flex-row justify-around items-center"
+      className="h-screen flex flex-col md:flex-row justify-around items-center"
      
     >
       <a href='/#'>

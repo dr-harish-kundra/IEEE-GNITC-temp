@@ -30,7 +30,7 @@ function App1() {
       <AboutUs />
       <Societies />
       <Events />
-      <FutureEventTimeLine />
+      {/* <FutureEventTimeLine /> */}
       <TopLeadership />
       <FacltyAdv />
       <Members />
