@@ -44,7 +44,7 @@ function FutureEventTimeLine() {
 
 
 
-                {/* <VerticalTimelineElement
+                <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
                       background: "rgb(33, 150, 243)",
@@ -69,7 +69,7 @@ function FutureEventTimeLine() {
                       ???
                     </h5>
                     <p></p>
-                  </VerticalTimelineElement> */}
+                  </VerticalTimelineElement>
                 
               </VerticalTimeline>
             </div>

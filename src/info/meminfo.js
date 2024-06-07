@@ -59,4 +59,6 @@ const MemInfo = [
   
 ];
 
+
+
 export default MemInfo;

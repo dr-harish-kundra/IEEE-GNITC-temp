@@ -1,4 +1,17 @@
 import virtualvista from "../assets/events/VirtualVista.jpg";
+import vv101 from "../assets/events/virtualvista/vv101.jpeg";
+import vv102 from "../assets/events/virtualvista/vv102.jpeg";
+import vv103 from "../assets/events/virtualvista/vv103.jpeg";
+import vv104 from "../assets/events/virtualvista/vv104.jpeg";
+import vv105 from "../assets/events/virtualvista/vv105.jpeg";
+import vv106 from "../assets/events/virtualvista/vv106.jpeg";
+import vv107 from "../assets/events/virtualvista/vv107.jpeg";
+import vv108 from "../assets/events/virtualvista/vv108.jpeg";
+import vv109 from "../assets/events/virtualvista/vv109.jpeg";
+import vv110 from "../assets/events/virtualvista/vv110.jpeg";
+import vv111 from "../assets/events/virtualvista/vv111.jpeg";
+import vv112 from "../assets/events/virtualvista/vv112.jpeg";
+
 
 
 const RegisterComponent = (
@@ -75,7 +88,47 @@ const EventInfo = [
     
   ];
 
+const moreInfo =[
+  {
+    img: vv101
+  },
+  {
+    img: vv102
+  }
+  ,
+  {
+    img: vv103
+  },
+  {
+    img: vv104
+  },
+  {
+    img: vv105
+  },
+  {
+    img: vv106
+  },
+  {
+    img: vv107
+  },
+  {
+    img: vv108
+  },
+  {
+    img: vv109
+  },
+  {
+    img: vv110
+  },
+  {
+    img: vv111
+  },
+  {
+    img: vv112
+  }
 
-export default EventInfo
+]
 
+export {moreInfo}
+export default EventInfo 
 
