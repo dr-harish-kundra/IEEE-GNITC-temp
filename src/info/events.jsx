@@ -8,6 +8,8 @@ import vv106 from "../assets/events/virtualvista/vv106.jpeg";
 import vv107 from "../assets/events/virtualvista/vv107.jpeg";
 import vv108 from "../assets/events/virtualvista/vv108.jpeg";
 import vv109 from "../assets/events/virtualvista/vv109.jpeg";
+
+
 import vv110 from "../assets/events/virtualvista/vv110.jpeg";
 import vv111 from "../assets/events/virtualvista/vv111.jpeg";
 import vv112 from "../assets/events/virtualvista/vv112.jpeg";
@@ -88,7 +90,7 @@ const EventInfo = [
     
   ];
 
-const moreInfo =[
+const moreInfo1 =[
   {
     img: vv101
   },
@@ -102,9 +104,7 @@ const moreInfo =[
   {
     img: vv104
   },
-  {
-    img: vv105
-  },
+
   {
     img: vv106
   },
@@ -117,6 +117,13 @@ const moreInfo =[
   {
     img: vv109
   },
+
+]
+
+const moreInfo2 =[
+  // {
+  //   img: vv105
+  // },
   {
     img: vv110
   },
@@ -129,6 +136,6 @@ const moreInfo =[
 
 ]
 
-export {moreInfo}
+export {moreInfo1, moreInfo2}
 export default EventInfo 
 

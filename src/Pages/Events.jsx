@@ -1,5 +1,5 @@
 import React from "react";
-import EventInfo,{moreInfo} from "../info/events";
+import EventInfo,{moreInfo1,moreInfo2} from "../info/events";
 import Autoplay from "embla-carousel-autoplay";
 import EventImageItem from "@/components/Items/EventImageItem";
 
@@ -32,7 +32,7 @@ function Events() {
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3 ">
               </div>
             </div>
-            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6 w-4/6">
+            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6  w-5/6">
               <Carousel
                 opts={{
                   align: "start",
@@ -45,10 +45,10 @@ function Events() {
                 ]}
               >
                 <CarouselContent>
-                  {moreInfo.map((data,index) => {
+                  {moreInfo1.map((data,index) => {
                     return (
                       <CarouselItem
-                        className=" md:basis-1/5 md:pl-4"
+                        className="  md:basis-1/3 basis-4/5  pl-6 md:pl-16"
                         key={index}
                       >
                         <EventImageItem
@@ -59,6 +59,37 @@ function Events() {
                   })}
                 </CarouselContent>
               </Carousel>
+            </div>
+
+            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6 w-[90%]">
+              <div >
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true,
+                }}
+                plugins={[
+                  Autoplay({
+                    delay: 3000,
+                  }),
+                ]}
+              >
+                <CarouselContent>
+                  {moreInfo2.map((data,index) => {
+                    return (
+                      <CarouselItem
+                        className="  md:basis-1/3 md:pl-10"
+                        key={index}
+                      >
+                        <EventImageItem
+                          img={data.img}
+                        />
+                      </CarouselItem>
+                    );
+                  })}
+                </CarouselContent>
+              </Carousel>
+              </div>
             </div>
             
         
