@@ -23,27 +23,6 @@ function FutureEventTimeLine() {
             <div className="m-2 md:border-b-2">
 
               <VerticalTimeline>
-
-              
-                <a href="/#/events/VirtualVista">
-                <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                  contentStyle={{ background: 'rgb(33,243, 150 )', color: '#fff' }}
-                  contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                  date="23-05-2024"
-                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                  icon={<img src={computer_society} alt="computer society" className='rounded-full'/>}
-                 >
-                  <h3 className="vertical-timeline-element-title">Virtual Vista</h3>
-                  <h5 className="vertical-timeline-element-subtitle">Ignite your intelligence</h5>
-                  <p>
-                    
-                  </p>
-                </VerticalTimelineElement>
-                </a>
-
-
-
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
@@ -53,7 +32,7 @@ function FutureEventTimeLine() {
                     contentArrowStyle={{
                       borderRight: "7px solid  rgb(33, 150, 243)",
                     }}
-                    date="???"
+                    date="13/06/2024"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
                       color: "#fff",
@@ -63,10 +42,10 @@ function FutureEventTimeLine() {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      ???
+                      TECH-IGNITION
                     </h3>
-                    <h5 className="vertical-timeline-element-subtitle">
-                      ???
+                    <h5 className="vertical-timelIEEE Student Branch Inaugurationine-element-subtitle">
+                    IEEE Student Branch Inauguration
                     </h5>
                     <p></p>
                   </VerticalTimelineElement>
