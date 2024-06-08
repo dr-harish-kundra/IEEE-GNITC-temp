@@ -17,9 +17,9 @@ function Contact() {
   //discord
   return (
     <div id="contact">
-      <div className="h-screen overflow-hidden" >
+      <div className="md:h-screen overflow-hidden" >
         <p>.</p>
-        <div className="flex gap-5 justify-center items-center m-8 mt-20 ">
+        <div className="flex gap-5 justify-center items-center  m-8 mt-20 ">
           <a
             href="https://www.linkedin.com/company/ieee-gnitc/"
             target="_blank"
@@ -69,31 +69,31 @@ function Contact() {
             <FaDiscord className="text-5xl" />
           </a>
         </div>
-        <div className=" flex justify-between m-8">
-          <div className="text-slate-300 gap-4 underline font-semibold flex flex-col m-4 text-xl">
+        <div className=" flex justify-between flex-col md:flex-row m-8">
+          <div className="text-slate-300 gap-4 underline font-semibold flex justify-center items-center flex-col m-4 text-xl">
             <Scrool className="cursor-pointer" to="home">Home</Scrool>
             <Scrool  className="cursor-pointer" to="about">About</Scrool>
             <Scrool className="cursor-pointer" to="events">Events</Scrool>
             <Scrool className="cursor-pointer" to="members">Members</Scrool>
           </div>
-          <div>
-            <h1 className="text-3xl txt ml-80">KNOW ABOUT US</h1>
-            <h1 className="text-2xl txt ml-80">visit <a href="https://gniindia.org"><u>https://gniindia.org</u></a></h1>
+          <div className="flex flex-col justify-center items-center m-10 ">
+            <h1 className="text-3xl txt ">KNOW ABOUT US</h1>
+            <h1 className="text-2xl txt ">visit <a href="https://gniindia.org"><u>https://gniindia.org</u></a></h1>
           </div>
-          <div className=" txt text-xl ">
-            <u className="text-3xl">Contact Us</u>
-            <h2 className="text-2xl">Chair : Chandra Kiran Reddy Kasireddy</h2>
-            <div className="px-10">
+          <div className=" txt text-xl flex flex-col p-4 bg-slate-900 m-2 md:mr-10 rounded-xl overflow-hidden">
+            <u className="text-3xl mb-4">Contact Us</u>
+            <h2 className="md:text-2xl font-semibold">Chair : Chandra Kiran Reddy Kasireddy</h2>
+            <div className="md:px-10 px-4">
               <h2>email : <a href="mailto:chandukasireddy@ieee.org">chandukasireddy@ieee.org</a></h2>
               <h2>phone : <a href="tel:+918179833743">+91 8179833743</a></h2>
             </div>
-            <h2 className="text-2xl">Vice Chair : Mohammed Abdul Rahman</h2>
-            <div className="px-10">
+            <h2 className="md:text-2xl font-semibold">Vice Chair : Mohammed Abdul Rahman</h2>
+            <div className="md:px-10 px-4">
               <h2>email : <a href="mailto:Mohammedabdulrahman@ieee.org">Mohammedabdulrahman@ieee.org</a></h2>
               <h2>phone : <a href="tel:+918008243308">+91 8008243308</a></h2>
             </div>
-            <h2 className="text-2xl">Public Relations : Mohitha Vinnakota</h2>
-            <div className="px-10">
+            <h2 className="md:text-2xl font-semibold">Public Relations : Mohitha Vinnakota</h2>
+            <div className="md:px-10 px-4">
               <h2>email : <a href="mailto:mohithav@ieee.org">mohithav@ieee.org</a></h2>
               <h2>phone : <a href="tel:+919951150501">+91 9951150501</a></h2>
             </div>
