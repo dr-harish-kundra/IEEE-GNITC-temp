@@ -34,8 +34,7 @@ function Events() {
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3 ">
               </div>
             </div>
-            <div className=" flex  flex-col md:flex-row">
-            <div className=" memcard flex overflow-hidden  md:m-20 gap-4 m-10 ml-25 ">
+            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6 w-4/6t">
               <Carousel
                 opts={{
                   align: "start",
@@ -161,7 +160,7 @@ The event was made possible with the full support of the IEEE GNITC chapter's le
               </Carousel>
             </div>
           </div>
-        </div>
+
   );
 }
 
