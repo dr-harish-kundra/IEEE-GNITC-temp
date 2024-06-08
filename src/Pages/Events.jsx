@@ -32,7 +32,7 @@ function Events() {
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3 ">
               </div>
             </div>
-            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6  w-5/6">
+            <div className=" memcard flex overflow-hidden  md:m-20 gap-4 m-10 ml-25 w-5/6">
               <Carousel
                 opts={{
                   align: "start",
@@ -48,7 +48,7 @@ function Events() {
                   {moreInfo1.map((data,index) => {
                     return (
                       <CarouselItem
-                        className="  md:basis-1/3 basis-4/5  pl-6 md:pl-16"
+                        className="  md:basis-1/4 basis-4/5  pl-6 md:pl-16"
                         key={index}
                       >
                         <EventImageItem
@@ -61,7 +61,7 @@ function Events() {
               </Carousel>
             </div>
 
-            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6 w-[90%]">
+            <div className=" memcard flex overflow-hidden mb-24  mt-14 gap-4 ml-10 m-6 w-[90%]">
               <div >
               <Carousel
                 opts={{
