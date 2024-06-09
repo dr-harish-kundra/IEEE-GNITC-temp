@@ -82,17 +82,18 @@ function Contact() {
           </div>
           <div className=" txt text-xl flex flex-col p-4 bg-slate-900 m-2 md:mr-10 rounded-xl overflow-hidden">
             <u className="text-3xl mb-4">Contact Us</u>
-            <h2 className="md:text-2xl font-semibold">Chair : Chandra Kiran Reddy Kasireddy</h2>
+            {/* <h2 className="md:text-2xl font-semibold">Chair : Chandra Kiran Reddy Kasireddy</h2>
             <div className="md:px-10 px-4">
               <h2>email : <a href="mailto:chandukasireddy@ieee.org">chandukasireddy@ieee.org</a></h2>
               <h2>phone : <a href="tel:+918179833743">+91 8179833743</a></h2>
-            </div>
-            <h2 className="md:text-2xl font-semibold">Vice Chair : Mohammed Abdul Rahman</h2>
+            </div> */}
+            
+            <h2 className="md:text-2xl font-semibold"> Mohammed Abdul Rahman</h2>
             <div className="md:px-10 px-4">
               <h2>email : <a href="mailto:Mohammedabdulrahman@ieee.org">Mohammedabdulrahman@ieee.org</a></h2>
               <h2>phone : <a href="tel:+918008243308">+91 8008243308</a></h2>
             </div>
-            <h2 className="md:text-2xl font-semibold">Public Relations : Mohitha Vinnakota</h2>
+            <h2 className="md:text-2xl font-semibold">Mohitha Vinnakota</h2>
             <div className="md:px-10 px-4">
               <h2>email : <a href="mailto:mohithav@ieee.org">mohithav@ieee.org</a></h2>
               <h2>phone : <a href="tel:+919951150501">+91 9951150501</a></h2>

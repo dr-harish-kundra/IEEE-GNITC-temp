@@ -10,8 +10,35 @@ import CardItem2 from "@/components/Items/CardItem2";
 import EventInfo from "../info/events";
 import Autoplay from "embla-carousel-autoplay"
 import IEEE from "../assets/IEEE.png"
+import TIinfo1 from "../assets/events/tech-ignition/info1.jpeg"
+import TIinfo2 from "../assets/events/tech-ignition/info2.png"
+import TIinfo3 from "../assets/events/tech-ignition/info3.jpeg"
+import TIinfo4 from "../assets/events/tech-ignition/info4.jpeg"
 
 function Home() {
+
+  const posters =[
+    {
+      title: "Tech Ignition",
+      img: TIinfo1,
+      link: "/#/events/TechIgnition"
+    },
+    {
+      title: "Tech Ignition",
+      img: TIinfo2,
+      link: "/#/events/TechIgnition"
+    },
+    {
+      title: "Tech Ignition",
+      img: TIinfo3,
+      link: "/#/events/TechIgnition"
+    },
+    {
+      title: "Tech Ignition",
+      img: TIinfo4,
+      link: "/#/events/TechIgnition"
+    }
+  ];
   return (
     <div
       id="home"
@@ -37,17 +64,17 @@ function Home() {
                 loop: true,
               }}
               plugins={[
-                // Autoplay({
-                //   delay: 2000,
-                // }),
+                Autoplay({
+                  delay: 3000,
+                }),
               ]}
             >
               <CarouselContent>
-                {EventInfo.map((eve) => {
+                {posters.map((props) => {
                   return (
                     <>
                       <CarouselItem>
-                        <CardItem2 cardTitlee={eve.title} cardImg={eve.img2 } link={eve.link}/>
+                        <CardItem2 cardTitlee={props.title} cardImg={props.img } link={props.link}/>
                       </CarouselItem>
                     </>
                   );

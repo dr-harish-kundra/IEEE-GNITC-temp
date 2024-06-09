@@ -34,7 +34,8 @@ function Events() {
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3 ">
               </div>
             </div>
-            <div className=" memcard flex overflow-hidden  mt-14 gap-4 ml-10 m-6 w-4/6t">
+            <div className=" flex md:flex-row flex-col">
+            <div className=" memcard flex overflow-hidden flex- mt-14 gap-4 ml-10 m-6 w-4/6t">
               <Carousel
                 opts={{
                   align: "start",
@@ -82,6 +83,7 @@ Dr. Harish Kundra, Dean of Students and Faculty Welfare and IEEE Branch Coordina
 Dr. Geeta Tripathi, Head of CSE Department and IEEE CS Advisor  <br />
 Dr Ch Ravindra, Convener of the event <br />
 The event was made possible with the full support of the IEEE GNITC chapter's leadership, including Vice Chairman Sardar Gagandeep Singh Kohli and Managing Director Dr. H. S. Saini. Their dedication and support were instrumental in the success of Virtual Vista-1.0.</p></div>
+            </div>
             </div>
             </div>
 
