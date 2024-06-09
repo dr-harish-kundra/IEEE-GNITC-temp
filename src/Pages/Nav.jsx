@@ -38,11 +38,11 @@ export default function Nav() {
               Faculty Advisors
             </ScrollLink>
           </span>
-          <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
+          {/* <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
             <ScrollLink to="members" smooth={true} duration={500}>
             Members
             </ScrollLink>
-          </span>
+          </span> */}
           
           
           <span className="m-4 mt-6 text-slate-200	hidden md:flex cursor-pointer">

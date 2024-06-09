@@ -4,11 +4,11 @@ import AboutUs from './Pages/AboutUs'
 import Contact from './Pages/Contact'
 import Events from './Pages/Events'
 import Home from './Pages/Home'
-import AllMem from './Pages/Indepages/Allmem'
-import Members from './Pages/Members'
+// import AllMem from './Pages/Indepages/Allmem'
+// import Members from './Pages/Members'
 import Nav from './Pages/Nav'
 import Societies from './Pages/Societies'
-import NotFound from './Pages/NotFound'
+// import NotFound from './Pages/NotFound'
 import ComputerSociety from './Pages/societies/ComputerSociety'
 import CommunicationSociety from './Pages/societies/CommunicationSociety'
 import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSociety'
@@ -20,6 +20,7 @@ import FutureEventTimeLine from './Pages/FutureEventTimeLine'
 import Collaborators from './Pages/Collaborators'
 import VirtualVista from './Pages/events/computersociety/VirtualVista'
 import VirtualVista2 from './Pages/events/computersociety/VirtualVista2'
+import TechIgnition from './Pages/events/main/TechIgnition'
 
 
 
@@ -31,10 +32,10 @@ function App1() {
       <AboutUs />
       <Societies />
       <Events />
-      {/* <FutureEventTimeLine /> */}
+      <FutureEventTimeLine />
       <TopLeadership />
       <FacltyAdv />
-      <Members />
+      {/* <Members /> */}
       <Collaborators />
       <Contact />
   
@@ -47,12 +48,13 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<App1 />} />
-        <Route path="/members" element={<AllMem />} />
+        {/* <Route path="/members" element={<AllMem />} /> */}
         <Route path='/ComputerSociety' element={<ComputerSociety/>} />
         <Route path='/CommunicationSociety' element={<CommunicationSociety/>} />
         <Route path='/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
         <Route path="/events" element={<AllEvents />} />
         <Route path="/events/VirtualVista" element={<VirtualVista2 />} />
+        {/* <Route path="/events/TechIgnition" element={<TechIgnition />} /> */}
           
         {/* <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
         {/* <Route path='*' element={<NotFound />} /> */}
