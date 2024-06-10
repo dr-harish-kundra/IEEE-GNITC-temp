@@ -15,12 +15,12 @@ function FutureEventTimeLine() {
     <div id="events ">
       <div>
         <div className="overflow-hidden">
-          <div className="   eventsbg border-b-4 mt-24 md:h-screen w-full">
+          <div className="   eventsbg mt-24 my-48 w-full">
             <p>.</p>
             <div className=" flex justify-between items-center mt-12 gap-3">
               {/* <div className=" heading p-2">Upcoming Events</div> */}
             </div>
-            <div className="m-2 md:border-b-2">
+            <div className="m-2 ">
 
               
 
@@ -45,7 +45,7 @@ function FutureEventTimeLine() {
 
               <a href="/#/events/TechIgnition">
               <VerticalTimelineElement
-                className="vertical-timeline-element--right"
+                className="vertical-timeline-element--right "
                 contentStyle={{
                   background: "rgb(33, 150, 243)",
                   color: "#fff",
