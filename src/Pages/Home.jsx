@@ -54,6 +54,7 @@ function Home() {
              
               <p className="">IEEE GNITC</p>
             </span>
+        
           </div>
      
         <div className=" mt-32 flex ml-6 md:ml-56 md:w-96">
