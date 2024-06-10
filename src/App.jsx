@@ -54,7 +54,7 @@ const App = () => {
         <Route path='/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
         <Route path="/events" element={<AllEvents />} />
         <Route path="/events/VirtualVista" element={<VirtualVista2 />} />
-        {/* <Route path="/events/TechIgnition" element={<TechIgnition />} /> */}
+        <Route path="/events/TechIgnition" element={<TechIgnition />} />
           
         {/* <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
         {/* <Route path='*' element={<NotFound />} /> */}

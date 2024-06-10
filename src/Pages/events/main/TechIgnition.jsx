@@ -22,7 +22,8 @@ const TechIgnition = () =>{
         <div className="about flex m-3 p-3 flex-col">
           <span className="cen fontf text-3xl  ">About</span>
           <span className=" text-lg fontt cen md:w-[85%]">
-          IEEE-Computer Society of Guru Nanak Institutions Technical Campus, Hyderabad is thrilled to invite you all to participate and to showcase your talent and innovation at the National Level Online Project Competition VIRTUAL VISTA-1.0 Sponsored by IEEE. This virtual event is set to ignite your intelligence and provide an online platform to showcase your talent.
+            The IEEE Student Branches of GNI are organizing a "TECH-IGNITION" an event which marks as the sucessful start of the IEEE student branches in the campus <br/>
+            we encourage students to participate in this event and showcase their talents and innovation in the field of science and technology.
           </span>
         </div>
         <div className="rules flex-col mt-10 ">
