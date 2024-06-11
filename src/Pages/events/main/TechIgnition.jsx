@@ -261,7 +261,7 @@ const TechIgnition = () => {
                 RULES AND REGULATION
               </span>
 
-              <span className="  fontt  text-lg cen ml-24 ">
+              <span className="  fontt  text-lg cen  md:ml-24 ">
                 <ol className="">
                   <li>
                     -Participants must submit their solutions within the
