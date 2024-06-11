@@ -206,7 +206,7 @@ const TechIgnition = () => {
             <p className="underline">Code A Thon</p>
           </div>
           <div className="flex md:flex-row flex-col border-b-2 mb-4 w-screen border-stone-950 ">
-            <div className="Guidelines flex-col w-[50%] m-2 p-2 mt-10 ">
+            <div className="Guidelines flex-col md:w-[50%] m-2 p-2 mt-10 ">
               <span className="cen fontf underline  font-semibold text-3xl">
                 GUIDELINE FOR CODING COMPETITION
               </span>
@@ -256,7 +256,7 @@ const TechIgnition = () => {
                 </ol>
               </span>
             </div>
-            <div className="rules flex-col  m-2 p-2 w-[50%] mt-10 ">
+            <div className="rules flex-col  m-2 p-2 md:w-[50%] mt-10 ">
               <span className="cen fontf underline font-semibold text-3xl">
                 RULES AND REGULATION
               </span>
