@@ -471,46 +471,29 @@ Top 3 members or team from each slot will be qualified to final slot.
             <p className="underline">Embedded innovators challenge</p>
           </div>
 
-          <div className="flex md:flex-row flex-col border-b-2 mb-4 border-stone-950 ">
+          <div className="flex md:flex-row flex-col border-b-2 mb-4 border-stone-950 items-center justify-center ">
             <div className="Guidelines flex-col  m-2 p-2 mt-10 ">
               <span className="cen fontf underline  font-semibold text-3xl">
               Guidelines 
               </span>
               <span className="  fontt  text-lg cen md:ml-16  ">
                 <ol>
-                  <li>-Participant typically need to register for the event within the specified time frame that is before 11th june 2024, to secure their spot</li>
-                  <li >
-                    -Participant can bring any components <b>(related to embedded systems) </b>
-                  </li>
-                  <li>
-                  -Participants need to explain their project to the jury members 
-                  </li>
-               
-                  <li>
-                    -Participants need to be aware of time limit (2 hours)
-                  </li>
+                <li>Embedded Innovators Challenge Guidelines</li>
+                <li>3 Circuits will be provided.</li>
+                <li>Code will be provided .</li>
+                <li>You should bring your components.</li>
+                <li>You've to bring your own Laptops.</li>
+                <li>1 Laptop  is enough for 1 group.</li>
+                <li>You just have to assemble the circuits and show the working in front of Jury members.</li>
+                <li>Attendance will be provided for participants for the event time.</li>
+                <li>Free registration for IEEE members and ₹50 per head for Non-IEEE members.</li>
+                <li>Participation certificates will be provided.</li>
+                <li>Winner and Runner-up will get exciting Cash prizes.</li>
+                <li>Each group should have 3-4 members.</li>
                 </ol>
               </span>
             </div>
-            <div className="rules flex-col  m-2 p-2  mt-10 ">
-              <span className="cen fontf underline font-semibold text-3xl">
-                Rules & Regulations
-              </span>
 
-              <span className="  fontt  text-lg cen md:ml-16  ">
-                <ol>
-                  <li>-Registration fee is 50 for non IEEE members and free for IEEE members</li>
-                  <li>
-                    -Participants need to bring their own components
-                  </li>
-                  <li>
-                    -Team shall comprise of at least 2 members and at most 4 members
-                  </li>
-                  <li>-Make sure to review the rules and guidelines provided by the event organisers thoroughly to ensure the successful participation experience, if you have any queries or need further information feel free to contact</li>
-              
-                </ol>
-              </span>
-            </div>
           </div>
         </div>
 
