@@ -71,6 +71,43 @@ function FutureEventTimeLine() {
                 <p></p>
               </VerticalTimelineElement>
               </a>
+
+
+
+
+
+
+              <a href="/#/events/AIMastery">
+              <VerticalTimelineElement
+                className="vertical-timeline-element--left"
+                contentStyle={{
+                  background: "rgb(33, 200, 243)",
+                  color: "#fff",
+                }}
+                contentArrowStyle={{
+                  borderRight: "7px solid  rgb(33, 150, 243)",
+                }}
+                date="30-8-2024"
+                iconStyle={{
+                  background: "rgb(33, 150, 243)",
+                  color: "#fff",
+                }}
+                icon={
+                  <img src={computer_society} alt="IEEE" className="rounded-full" />
+                }
+              >
+                <h3 className="vertical-timeline-element-title">
+                  AI Mastery Boot Camp
+                </h3>
+                <h5 className="vertical-timelIEEE Student Branch Inaugurationine-element-subtitle">
+                Handfull insights on Ai tools ,LLMs and more
+                </h5>
+                <p></p>
+              </VerticalTimelineElement>
+              </a>
+
+
+
                 
               </VerticalTimeline>
             </div>

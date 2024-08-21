@@ -20,6 +20,7 @@ import FutureEventTimeLine from './Pages/FutureEventTimeLine'
 import Collaborators from './Pages/Collaborators'
 import VirtualVista from './Pages/events/computersociety/VirtualVista'
 import VirtualVista2 from './Pages/events/computersociety/VirtualVista2'
+import AIMastery from './Pages/events/computersociety/AIMastery'
 import TechIgnition from './Pages/events/main/TechIgnition'
 
 
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="/events" element={<AllEvents />} />
         <Route path="/events/VirtualVista" element={<VirtualVista2 />} />
         <Route path="/events/TechIgnition" element={<TechIgnition />} />
+        <Route path="/events/AIMastery" element={<AIMastery />} />
           
         {/* <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
         {/* <Route path='*' element={<NotFound />} /> */}
