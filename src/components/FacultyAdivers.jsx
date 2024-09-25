@@ -42,9 +42,9 @@ function FacultyAdvisers() {
   ];
 
   return (
-    <div className="p-6 my-5 border-b overflow-hidden "id="Faculty">
-      <h2 className="text-center text-3xl font-bold mb-16">Faculty Advisers</h2>
-      <div className="md:ml-16 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 grid-">
+    <div className="p-6 my-5 border-b overflow-hidden container mx-auto "id="Faculty">
+      {/* <h2 className="text-center text-3xl font-bold mb-16">Faculty Advisers</h2> */}
+      <div className=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-20 gap-5 ">
         {advisers.map((adviser, index) => (
           <div
             key={index}
