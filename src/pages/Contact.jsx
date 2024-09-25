@@ -26,7 +26,7 @@ function Contact() {
     const formUrl = "https://api.web3forms.com/submit"; // Web3 Forms API URL
 
     const data = {
-      access_key: "f375b5c9-dbe5-4028-9c12-a8f383b69c98", // Replace this with your Web3 Forms Access Key
+      access_key: "236bb4ff-6bb8-4c93-af63-b98fca00afe2", // Replace this with your Web3 Forms Access Key
       name: formData.name,
       email: formData.email,
       phone: formData.phone,

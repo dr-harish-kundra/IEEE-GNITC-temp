@@ -63,6 +63,15 @@ function Navbar() {
           >
             Faculty
           </ScrollLink>
+
+          <ScrollLink
+            to="Students"About
+            smooth={true}
+            duration={500}
+            className="hover:text-red-600 cursor-pointer"
+          >
+        Students
+          </ScrollLink>
         </div>
 
         <span className="p-3 rounded-xl bg-sky-700 hover:bg-sky-600 text-white text-xl">

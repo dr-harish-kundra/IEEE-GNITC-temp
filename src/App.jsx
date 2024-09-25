@@ -6,24 +6,26 @@ import Societies from "./pages/Societies"
 import Contact from "./pages/Contact"
 import TopLeader from "./pages/TopLeader"
 import FacultyAdvisers from "./pages/FacultyAdivers"
+import StudentCoreTeam from "./pages/StudentCoreTeam"
 
 
 function App() {
 
 
-  return (
-    <>
-    <Navbar />
-    <Home />
-    <About />
-    <Societies />
-    <Event />
-    <TopLeader />
-    <FacultyAdvisers />
-    <Contact />
-  
-    </>
-  )
+	return (
+		<>
+		<Navbar />
+		<Home />
+		<About />
+		<Societies />
+		<Event />
+		<TopLeader />
+		<FacultyAdvisers />
+		<StudentCoreTeam />
+		<Contact />
+
+		</>
+	)
 }
 
 export default App

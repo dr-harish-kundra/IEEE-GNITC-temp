@@ -10,22 +10,22 @@ function TopLeader() {
     {
       role: "Chairman",
       name: "SARDAR TAVINDER SINGH KOHLI",
-      imgSrc: chairman, // Replace with correct path
+      imgSrc: chairman,
     },
     {
       role: "Vice Chairman",
       name: "SARDAR GAGANDEEP SINGH KOHLI",
-      imgSrc: vc, // Replace with correct path
+      imgSrc: vc, 
     },
     {
       role: "Managing Director",
       name: "DR. H S SAINI",
-      imgSrc: md, // Replace with correct path
+      imgSrc: md,
     },
   ];
 
   return (
-    <div className="p-6 my-10 pb-20 border-b  ">
+    <div className="p-6 my-10 pb-20 border-b " id="Leadership">
       <h2 className="text-center text-3xl md:text-4xl font-bold mb-10">Top Leadership</h2>
       <div className="flex flex-col md:flex-row justify-around   md:mx-20 items-center gap-8">
         {leaders.map((leader, index) => (

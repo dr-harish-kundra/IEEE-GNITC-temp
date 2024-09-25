@@ -4,24 +4,24 @@ import Card from '../components/EventCard';
 const Event = () => {
   const cardsData = [
     {
-      imgSrc: 'path-to-image-1.jpg',
-      title: 'IEEE TechEthics',
-      description: 'Exploring the Ethical and Societal implications of Technology....',
+      imgSrc: '',
+      title: 'Tech Tgnition',
+      description: 'Inaugeration of IEEE GNI',
     },
     {
-      imgSrc: 'path-to-image-2.jpg',
-      title: 'Annual Conference',
-      description: 'Annual day conference of the Indian Electronics Society .....',
+      imgSrc: '',
+      title: 'Virtual Vista 1.0',
+      description: 'National Level Virtual Hackathon',
     },
     {
-      imgSrc: 'path-to-image-1.jpg',
-      title: 'IEEE TechEthics',
-      description: 'Exploring the Ethical and Societal implications of Technology....',
+      imgSrc: '',
+      title: 'AI Mastery Bootcamp',
+      description: 'Technical Event on generative ai',
     },
     {
-      imgSrc: 'path-to-image-2.jpg',
-      title: 'Annual Conference',
-      description: 'Annual day conference of the Indian Electronics Society .....',
+      imgSrc: '',
+      title: 'Engineers day',
+      description: 'Workshop On Art of Writing A Research Paper',
     },
     
   ];
@@ -41,7 +41,7 @@ const Event = () => {
         ))}
  
         </div>
-        <div className=" md:text-2xl text-xl flex font-bold justify-end text-emerald-600"> <a href="">View All</a></div>
+        <div className=" md:text-2xl text-xl flex font-bold justify-end text-emerald-600"> <a href="/events">View All</a></div>
     </div>
   );
 };
