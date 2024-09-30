@@ -123,8 +123,8 @@ function Contact() {
         <div className="flex-col min-w-[30%] p-2">
           <span className="flex gap-3 items-center justify-center text-xl my-2">
             <MdOutlineMail />
-            <a href="mailto:Mohammedabdulrahman@ieee.org" className="hover:underline">
-              Mohammedabdulrahman@ieee.org
+            <a href="mailto:ieee_gnitc@gniindia.org" className="hover:underline">
+	  			ieee_gnitc@gniindia.org
             </a>
           </span>
           <span className="flex gap-3 my-2 items-center justify-center text-xl">
@@ -138,7 +138,7 @@ function Contact() {
           </span>
           <span className="flex my-2 gap-3 items-center justify-center text-xl">
             <FaInstagram />
-            <a href="https://www.instagram.com/ieee_gnitc/">Instagram</a>
+            <a href="https://www.instagram.com/ieee_gni/">Instagram</a>
           </span>
           <span className="my-2 flex gap-3 items-center justify-center text-xl">
             <TfiLocationPin />

@@ -34,8 +34,8 @@ function StudentCoreTeam() {
 			imgSrc: DesignLead,
 		},
 		//{
-		//	name: "",
-		//	title: "",
+		//	name: "Ruthwick",
+		//	title: "Treaser",
 		//	imgSrc: ,
 		//},
 		{

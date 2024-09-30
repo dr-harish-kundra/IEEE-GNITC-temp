@@ -1,3 +1,5 @@
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+
 import Event from "./pages/Event"
 import About from "./pages/About"
 import Home from "./pages/Home"
@@ -10,9 +12,20 @@ import StudentCoreTeam from "./components/StudentCoreTeam"
 import Members from "./pages/Membres"
 
 
-function App() {
+function App(){
+	return(
+		<BrowserRouter>
+		<Routes>
+		<Route path="/" element={<Root/>}/>
+		</Routes>
+		</BrowserRouter>
+	)
+}
 
 
+
+
+function Root() {
 	return (
 		<>
 		<Navbar />
@@ -29,4 +42,4 @@ function App() {
 	)
 }
 
-export default App
+export default App 
